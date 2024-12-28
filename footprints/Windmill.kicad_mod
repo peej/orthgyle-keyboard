@@ -1,0 +1,126 @@
+(footprint "Windmill"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -4.4 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "80ec9a38-a9d6-47e8-8c92-48eab86eba78")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "flags"
+		(at 0.1 6.6 0)
+		(layer "F.Fab")
+		(uuid "556be472-5e5c-485f-8536-941e37fdceed")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bdae6da7-c1b6-4826-b913-52800b016c50")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a2718f3f-0ad6-48d4-81c4-5116e1ebba7a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2b6c0cd6-7b56-45c2-86ce-231099aaffaa")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_poly
+		(pts
+			(xy 0 0) (xy -0.6 -0.6) (xy -0.3 -0.6)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "077e5f9d-6386-43f3-a482-a2e7194ce492")
+	)
+	(fp_poly
+		(pts
+			(xy 0 0) (xy -0.6 0.6) (xy -0.6 0.3)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "06b663f5-320c-410c-bfaa-9c71b23c8e8d")
+	)
+	(fp_poly
+		(pts
+			(xy 0 0) (xy 0.6 -0.6) (xy 0.6 -0.3)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "e42edacc-71c5-4b4f-b510-5b0f25aa82fd")
+	)
+	(fp_poly
+		(pts
+			(xy 0 0) (xy 0.6 0.6) (xy 0.3 0.6)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "3c41897f-aaea-4c06-88e3-4ba25c783bf5")
+	)
+	(fp_poly
+		(pts
+			(xy 0.4 0.8) (xy 0.4 1.2) (xy -0.4 1.2) (xy -0.4 0.8) (xy -0.1 -0.1) (xy 0.1 -0.1)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Mask")
+		(uuid "1f59ef34-0e6f-4eac-b267-3d035c77c96c")
+	)
+)
