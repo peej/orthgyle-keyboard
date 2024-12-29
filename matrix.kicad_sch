@@ -4271,7 +4271,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Orthgyle:MX_PCB_200B"
+		(property "Footprint" "Orthgyle:MX_PCB_200H"
 			(at 162.56 125.73 0)
 			(effects
 				(font
@@ -4775,7 +4775,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Orthgyle:MX_PCB_200B"
+		(property "Footprint" "Orthgyle:MX_PCB_200H"
 			(at 111.76 125.73 0)
 			(effects
 				(font
