@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Orthgyle PCB")
-		(date "2024-12-16")
+		(date "2025-01-05")
 		(rev "1")
 	)
 	(lib_symbols
@@ -8779,7 +8779,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1e72a4a5-75e3-4d08-9024-41e35e9aa1f6")
-		(property "Reference" "D83"
+		(property "Reference" "RGB6"
 			(at 175.26 63.5314 0)
 			(effects
 				(font
@@ -8839,7 +8839,7 @@
 		(instances
 			(project "orthgyle"
 				(path "/463a010a-2077-405d-89e9-7586d05a9595"
-					(reference "D83")
+					(reference "RGB6")
 					(unit 1)
 				)
 			)
@@ -8921,7 +8921,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2b2a428d-fa07-4f0d-98bc-2447e83061ef")
-		(property "Reference" "D84"
+		(property "Reference" "RGB7"
 			(at 198.12 63.5314 0)
 			(effects
 				(font
@@ -8981,7 +8981,7 @@
 		(instances
 			(project "orthgyle"
 				(path "/463a010a-2077-405d-89e9-7586d05a9595"
-					(reference "D84")
+					(reference "RGB7")
 					(unit 1)
 				)
 			)
@@ -9198,7 +9198,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4c2307aa-0138-430a-a5bc-2a15af53d5d8")
-		(property "Reference" "D86"
+		(property "Reference" "RGB9"
 			(at 243.84 63.5314 0)
 			(effects
 				(font
@@ -9258,7 +9258,7 @@
 		(instances
 			(project "orthgyle"
 				(path "/463a010a-2077-405d-89e9-7586d05a9595"
-					(reference "D86")
+					(reference "RGB9")
 					(unit 1)
 				)
 			)
@@ -9274,7 +9274,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "59b3d25d-8fec-4250-844a-550c6be3513a")
-		(property "Reference" "D80"
+		(property "Reference" "RGB3"
 			(at 220.98 33.0514 0)
 			(effects
 				(font
@@ -9334,7 +9334,7 @@
 		(instances
 			(project "orthgyle"
 				(path "/463a010a-2077-405d-89e9-7586d05a9595"
-					(reference "D80")
+					(reference "RGB3")
 					(unit 1)
 				)
 			)
@@ -9350,7 +9350,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "68f039db-c407-47cb-a30f-2245c14911a1")
-		(property "Reference" "D85"
+		(property "Reference" "RGB8"
 			(at 220.98 63.5314 0)
 			(effects
 				(font
@@ -9410,7 +9410,7 @@
 		(instances
 			(project "orthgyle"
 				(path "/463a010a-2077-405d-89e9-7586d05a9595"
-					(reference "D85")
+					(reference "RGB8")
 					(unit 1)
 				)
 			)
@@ -9426,7 +9426,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "75041382-edd2-432a-a48f-dee016f9dd77")
-		(property "Reference" "D81"
+		(property "Reference" "RGB4"
 			(at 243.84 33.0514 0)
 			(effects
 				(font
@@ -9486,7 +9486,7 @@
 		(instances
 			(project "orthgyle"
 				(path "/463a010a-2077-405d-89e9-7586d05a9595"
-					(reference "D81")
+					(reference "RGB4")
 					(unit 1)
 				)
 			)
@@ -9502,7 +9502,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8393104d-729b-4db1-9aae-5bbba3bf8db8")
-		(property "Reference" "D78"
+		(property "Reference" "RGB1"
 			(at 175.26 33.0514 0)
 			(effects
 				(font
@@ -9562,7 +9562,7 @@
 		(instances
 			(project ""
 				(path "/463a010a-2077-405d-89e9-7586d05a9595"
-					(reference "D78")
+					(reference "RGB1")
 					(unit 1)
 				)
 			)
@@ -9852,7 +9852,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b0d9f32a-603e-4385-9874-630ecbaf8045")
-		(property "Reference" "D79"
+		(property "Reference" "RGB2"
 			(at 198.12 33.0514 0)
 			(effects
 				(font
@@ -9912,7 +9912,7 @@
 		(instances
 			(project "orthgyle"
 				(path "/463a010a-2077-405d-89e9-7586d05a9595"
-					(reference "D79")
+					(reference "RGB2")
 					(unit 1)
 				)
 			)
@@ -9928,7 +9928,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b3e4f151-966f-4455-b7de-cf4c2a0717f8")
-		(property "Reference" "D82"
+		(property "Reference" "RGB5"
 			(at 266.7 33.0514 0)
 			(effects
 				(font
@@ -9988,7 +9988,7 @@
 		(instances
 			(project "orthgyle"
 				(path "/463a010a-2077-405d-89e9-7586d05a9595"
-					(reference "D82")
+					(reference "RGB5")
 					(unit 1)
 				)
 			)
@@ -10134,7 +10134,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cc137bc1-a228-4a07-96b8-eac78fcd87d9")
-		(property "Reference" "D87"
+		(property "Reference" "RGB10"
 			(at 266.7 63.5314 0)
 			(effects
 				(font
@@ -10194,7 +10194,7 @@
 		(instances
 			(project "orthgyle"
 				(path "/463a010a-2077-405d-89e9-7586d05a9595"
-					(reference "D87")
+					(reference "RGB10")
 					(unit 1)
 				)
 			)
