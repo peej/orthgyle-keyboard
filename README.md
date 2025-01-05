@@ -9,3 +9,5 @@ Orthgyle is a 5x15 ortholinear PCB using through-hole components for the [Argyle
 * Uses a [Japanese Matrix](https://kbd.news/The-Japanese-duplex-matrix-1391.html) instead of an IO expander to simplify components and firmware.
 
 ![PCB design](images/pcb-design.png)
+
+See the [Bill of materials](BOM.md) for a detailed list of the required parts.
