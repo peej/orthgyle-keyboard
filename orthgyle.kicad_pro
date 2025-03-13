@@ -59,7 +59,52 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "hole_clearance|174935447|171887159|9ce3df8a-ea06-4762-b80a-cdf2943dbe44|dbfc9e27-b007-40b3-9022-d87771d39b8f",
+          ""
+        ],
+        [
+          "hole_clearance|270185447|171887159|ddd6d8a9-81ca-4887-99d7-9c4db94b71f1|5b487e52-23bb-48aa-9ed7-f62f88de9f5d",
+          ""
+        ],
+        [
+          "hole_to_hole|151059447|171887159|30c95dd2-9bcf-48bb-98f8-8bc3cdf36349|d56200b8-f55e-47b6-93aa-777d443fbd6f",
+          ""
+        ],
+        [
+          "hole_to_hole|151059447|187127159|348a555b-0a87-4f30-817b-a4e853b38a29|900c81cb-ec50-4d26-9a82-9653dc9ba65c",
+          ""
+        ],
+        [
+          "hole_to_hole|157917447|180142159|54d89ef2-83c4-45d9-a1f2-51dbfc5a1ffd|9cc590c8-65b5-4866-bfdf-14105e47f705",
+          ""
+        ],
+        [
+          "hole_to_hole|168077447|180142159|518c1938-cd6a-4ad3-a451-c3d2ab8576fc|c8afebdf-29b6-45ab-9fc1-99d7511d6c3c",
+          ""
+        ],
+        [
+          "hole_to_hole|253802447|180142159|3e1eb968-f809-4147-99bb-dc7dbfa06f46|98bab964-dc24-4d82-87cd-f9cd7287b3de",
+          ""
+        ],
+        [
+          "hole_to_hole|263327447|180142159|0c5c0845-9bbe-4166-9e3b-d12363204671|90720699-303d-4295-9671-01b5ae2e0ae2",
+          ""
+        ],
+        [
+          "hole_to_hole|267772447|171887159|9baa251b-1ae1-4fdb-82f2-63c3d177ae6d|ddd6d8a9-81ca-4887-99d7-9c4db94b71f1",
+          ""
+        ],
+        [
+          "hole_to_hole|267772447|187127159|baec460d-2bbf-4e14-9c15-9a0a7cc43918|eb2adac3-6762-42b2-a647-674d188f332d",
+          ""
+        ],
+        [
+          "silk_overlap|383681861|138358708|23d9ff23-1397-438a-b206-ec66848ddaa8|30dcc4be-6d31-42fc-8f56-db057f42a873",
+          ""
+        ]
+      ],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -68,19 +113,22 @@
         "annular_width": "error",
         "clearance": "error",
         "connection_width": "warning",
-        "copper_edge_clearance": "error",
+        "copper_edge_clearance": "ignore",
         "copper_sliver": "warning",
         "courtyards_overlap": "error",
+        "creepage": "error",
         "diff_pair_gap_out_of_range": "error",
         "diff_pair_uncoupled_length_too_long": "error",
         "drill_out_of_range": "error",
         "duplicate_footprints": "warning",
         "extra_footprint": "warning",
         "footprint": "error",
+        "footprint_filters_mismatch": "ignore",
         "footprint_symbol_mismatch": "warning",
-        "footprint_type_mismatch": "error",
+        "footprint_type_mismatch": "ignore",
         "hole_clearance": "error",
         "hole_near_hole": "error",
+        "hole_to_hole": "error",
         "holes_co_located": "ignore",
         "invalid_outline": "error",
         "isolated_copper": "warning",
@@ -91,9 +139,11 @@
         "lib_footprint_mismatch": "warning",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
+        "mirrored_text_on_front_layer": "warning",
         "missing_courtyard": "ignore",
         "missing_footprint": "warning",
         "net_conflict": "warning",
+        "nonmirrored_text_on_back_layer": "warning",
         "npth_inside_courtyard": "ignore",
         "padstack": "error",
         "pth_inside_courtyard": "ignore",
@@ -104,11 +154,13 @@
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
-        "text_height": "warning",
+        "text_height": "ignore",
         "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
+        "track_angle": "error",
         "track_dangling": "warning",
+        "track_segment_length": "error",
         "track_width": "error",
         "tracks_crossing": "error",
         "unconnected_items": "error",
@@ -126,6 +178,7 @@
         "min_clearance": 0.0,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.1,
+        "min_groove_width": 0.0,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.2,
@@ -143,10 +196,11 @@
       },
       "teardrop_options": [
         {
-          "td_onpadsmd": true,
+          "td_onpthpad": true,
           "td_onroundshapesonly": false,
+          "td_onsmdpad": true,
           "td_ontrackend": false,
-          "td_onviapad": true
+          "td_onvia": true
         }
       ],
       "teardrop_parameters": [
@@ -233,6 +287,7 @@
       "mfg": "",
       "mpn": ""
     },
+    "layer_pairs": [],
     "layer_presets": [],
     "viewports": []
   },
@@ -428,10 +483,15 @@
       "duplicate_sheet_names": "error",
       "endpoint_off_grid": "warning",
       "extra_units": "error",
+      "footprint_filter": "ignore",
+      "footprint_link_issues": "warning",
+      "four_way_junction": "ignore",
       "global_label_dangling": "warning",
       "hier_label_mismatch": "error",
       "label_dangling": "error",
+      "label_multiple_wires": "warning",
       "lib_symbol_issues": "warning",
+      "lib_symbol_mismatch": "warning",
       "missing_bidi_pin": "warning",
       "missing_input_pin": "warning",
       "missing_power_pin": "error",
@@ -444,9 +504,14 @@
       "pin_not_driven": "error",
       "pin_to_pin": "warning",
       "power_pin_not_driven": "error",
+      "same_local_global_label": "warning",
+      "similar_label_and_power": "warning",
       "similar_labels": "warning",
+      "similar_power": "warning",
       "simulation_model_issue": "ignore",
+      "single_global_label": "ignore",
       "unannotated": "error",
+      "unconnected_wire_endpoint": "warning",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"
@@ -458,7 +523,7 @@
   },
   "meta": {
     "filename": "orthgyle.kicad_pro",
-    "version": 1
+    "version": 3
   },
   "net_settings": {
     "classes": [
@@ -473,6 +538,7 @@
         "microvia_drill": 0.1,
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
         "via_diameter": 0.6,
@@ -490,6 +556,7 @@
         "microvia_drill": 0.1,
         "name": "5v",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.8,
         "via_diameter": 0.8,
@@ -498,7 +565,7 @@
       }
     ],
     "meta": {
-      "version": 3
+      "version": 4
     },
     "net_colors": null,
     "netclass_assignments": null,
@@ -574,6 +641,7 @@
       ],
       "filter_string": "",
       "group_symbols": true,
+      "include_excluded_from_bom": false,
       "name": "Grouped By Value",
       "sort_asc": true,
       "sort_field": "Reference"
@@ -617,6 +685,7 @@
     },
     "page_layout_descr_file": "",
     "plot_directory": "",
+    "space_save_all_events": true,
     "spice_adjust_passive_values": false,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
