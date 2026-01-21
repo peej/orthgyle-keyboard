@@ -649,6 +649,148 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector_Generic:Conn_02x01"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_02x01"
+				(at 1.27 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, double row, 02x01, this symbol is compatible with counter-clockwise, top-bottom and odd-even numbering schemes., script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_2x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_02x01_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 3.81 -1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 0.127)
+					(end 2.54 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector_Generic:Conn_02x03_Odd_Even"
 			(pin_names
 				(offset 1.016)
@@ -3458,6 +3600,12 @@
 		(uuid "42ce32ef-49a5-4111-af45-0be270fb28cf")
 	)
 	(junction
+		(at 76.2 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4eb7ff36-9c31-4166-bec2-b66b381c359b")
+	)
+	(junction
 		(at 242.57 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3560,6 +3708,12 @@
 		(uuid "aa078e97-7533-47c3-8cf4-5732460fae3b")
 	)
 	(junction
+		(at 39.37 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aa9fbfd3-e8d7-43b4-8c7e-00051e3be6ac")
+	)
+	(junction
 		(at 209.55 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3626,12 +3780,6 @@
 		(uuid "f9936712-d566-43e0-9212-092bbb6be07b")
 	)
 	(junction
-		(at 53.34 43.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f9c38a19-636b-4d78-89ab-49c5a8983c21")
-	)
-	(junction
 		(at 209.55 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3685,6 +3833,16 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 73.66) (xy 48.26 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "083165b1-f2b0-4766-8fac-e9387f960633")
+	)
+	(wire
+		(pts
 			(xy 66.04 144.78) (xy 68.58 144.78)
 		)
 		(stroke
@@ -3692,16 +3850,6 @@
 			(type default)
 		)
 		(uuid "0b53be98-289a-4526-bcdc-46386c7865ae")
-	)
-	(wire
-		(pts
-			(xy 52.07 50.8) (xy 78.74 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0ba92374-4188-4090-9627-8f40d9c9fe44")
 	)
 	(wire
 		(pts
@@ -3732,6 +3880,16 @@
 			(type default)
 		)
 		(uuid "0cb46319-f917-4a46-97b2-d0152bf2865e")
+	)
+	(wire
+		(pts
+			(xy 60.96 35.56) (xy 72.39 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ce5ed3d-10d6-4827-bc2b-342261dcfb59")
 	)
 	(wire
 		(pts
@@ -3845,7 +4003,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 43.18) (xy 45.72 43.18)
+			(xy 44.45 43.18) (xy 48.26 43.18)
 		)
 		(stroke
 			(width 0)
@@ -3975,6 +4133,16 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 48.26) (xy 86.36 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35d7d066-e18c-470c-9f3f-9c1c1a145f10")
+	)
+	(wire
+		(pts
 			(xy 163.83 31.75) (xy 186.69 31.75)
 		)
 		(stroke
@@ -4095,7 +4263,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 53.34) (xy 52.07 50.8)
+			(xy 48.26 53.34) (xy 48.26 50.8)
 		)
 		(stroke
 			(width 0)
@@ -4175,7 +4343,17 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 43.18) (xy 50.8 43.18)
+			(xy 60.96 50.8) (xy 78.74 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5518285d-eda1-403b-adc3-db218e384f39")
+	)
+	(wire
+		(pts
+			(xy 72.39 43.18) (xy 76.2 43.18)
 		)
 		(stroke
 			(width 0)
@@ -4205,7 +4383,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 40.64) (xy 53.34 43.18)
+			(xy 76.2 40.64) (xy 76.2 43.18)
 		)
 		(stroke
 			(width 0)
@@ -4225,7 +4403,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 40.64) (xy 45.72 40.64)
+			(xy 44.45 40.64) (xy 48.26 40.64)
 		)
 		(stroke
 			(width 0)
@@ -4455,7 +4633,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 35.56) (xy 72.39 35.56)
+			(xy 44.45 35.56) (xy 48.26 35.56)
 		)
 		(stroke
 			(width 0)
@@ -4495,7 +4673,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 53.34) (xy 52.07 53.34)
+			(xy 44.45 53.34) (xy 48.26 53.34)
 		)
 		(stroke
 			(width 0)
@@ -4595,7 +4773,17 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 73.66) (xy 36.83 73.66)
+			(xy 60.96 40.64) (xy 67.31 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b00512a0-6e8d-4a4d-b6f8-0e2e42ad9c93")
+	)
+	(wire
+		(pts
+			(xy 29.21 73.66) (xy 39.37 73.66)
 		)
 		(stroke
 			(width 0)
@@ -4895,6 +5083,16 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 73.66) (xy 64.77 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e35fa6c7-0a59-4fb7-b5c6-e0361e40d78d")
+	)
+	(wire
+		(pts
 			(xy 66.04 172.72) (xy 68.58 172.72)
 		)
 		(stroke
@@ -4915,7 +5113,17 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 40.64) (xy 53.34 40.64)
+			(xy 60.96 43.18) (xy 67.31 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e869d7c0-9e56-450c-ad58-ee0f0fba51a0")
+	)
+	(wire
+		(pts
+			(xy 72.39 40.64) (xy 76.2 40.64)
 		)
 		(stroke
 			(width 0)
@@ -4942,6 +5150,16 @@
 			(type default)
 		)
 		(uuid "ec69af3b-b25e-436f-aea8-05ffa402c9ee")
+	)
+	(wire
+		(pts
+			(xy 39.37 73.66) (xy 39.37 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec6c96d4-1987-4983-88c1-bf5c76d2bc64")
 	)
 	(wire
 		(pts
@@ -5025,7 +5243,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 48.26) (xy 86.36 48.26)
+			(xy 44.45 48.26) (xy 48.26 48.26)
 		)
 		(stroke
 			(width 0)
@@ -7667,7 +7885,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 53.34 43.18 90)
+		(at 76.2 43.18 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7675,7 +7893,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000608cea7d")
 		(property "Reference" "#PWR0102"
-			(at 59.69 43.18 0)
+			(at 82.55 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7684,7 +7902,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 57.7342 43.053 0)
+			(at 80.5942 43.053 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7692,7 +7910,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 53.34 43.18 0)
+			(at 76.2 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7701,7 +7919,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 53.34 43.18 0)
+			(at 76.2 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7710,7 +7928,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 53.34 43.18 0)
+			(at 76.2 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7732,7 +7950,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 36.83 73.66 90)
+		(at 64.77 73.66 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7740,7 +7958,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000608cfd5b")
 		(property "Reference" "#PWR0104"
-			(at 43.18 73.66 0)
+			(at 71.12 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7749,7 +7967,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 41.2242 73.533 0)
+			(at 69.1642 73.533 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7757,7 +7975,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 36.83 73.66 0)
+			(at 64.77 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7766,7 +7984,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 36.83 73.66 0)
+			(at 64.77 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7775,7 +7993,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 36.83 73.66 0)
+			(at 64.77 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7862,7 +8080,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 48.26 40.64 270)
+		(at 69.85 40.64 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7870,7 +8088,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00006092b761")
 		(property "Reference" "R5"
-			(at 45.72 38.1 90)
+			(at 67.31 38.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7878,7 +8096,7 @@
 			)
 		)
 		(property "Value" "5.1k"
-			(at 50.8 38.1 90)
+			(at 72.39 38.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7886,7 +8104,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
-			(at 48.26 40.64 0)
+			(at 69.85 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7895,7 +8113,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 48.26 40.64 0)
+			(at 69.85 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7904,7 +8122,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 48.26 40.64 0)
+			(at 69.85 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7929,7 +8147,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 48.26 43.18 270)
+		(at 69.85 43.18 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7937,7 +8155,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000609c8566")
 		(property "Reference" "R6"
-			(at 45.72 45.72 90)
+			(at 67.31 45.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7945,7 +8163,7 @@
 			)
 		)
 		(property "Value" "5.1k"
-			(at 50.8 45.72 90)
+			(at 72.39 45.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7953,7 +8171,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
-			(at 48.26 43.18 0)
+			(at 69.85 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7962,7 +8180,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 48.26 43.18 0)
+			(at 69.85 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7971,7 +8189,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 48.26 43.18 0)
+			(at 69.85 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7989,6 +8207,71 @@
 			(project ""
 				(path "/463a010a-2077-405d-89e9-7586d05a9595"
 					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 39.37 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "191bef5b-764a-417d-9f3c-19668d5baf36")
+		(property "Reference" "#PWR0106"
+			(at 39.37 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 39.497 81.8642 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 39.37 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 39.37 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "95e5f28e-b517-4665-820b-cf5879350541")
+		)
+		(instances
+			(project "orthgyle"
+				(path "/463a010a-2077-405d-89e9-7586d05a9595"
+					(reference "#PWR0106")
 					(unit 1)
 				)
 			)
@@ -8725,6 +9008,142 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_02x01")
+		(at 53.34 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9cfc3f81-0c70-4560-bca6-8861ca0d8a13")
+		(property "Reference" "J8"
+			(at 54.61 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_02x01"
+			(at 54.61 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
+			(at 53.34 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 53.34 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, double row, 02x01, this symbol is compatible with counter-clockwise, top-bottom and odd-even numbering schemes., script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 53.34 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a31bd5a1-dac0-43d0-bef7-08202e9211cd")
+		)
+		(pin "1"
+			(uuid "2c5cb94e-06e9-47f2-8f97-a4e23b6de623")
+		)
+		(instances
+			(project "orthgyle"
+				(path "/463a010a-2077-405d-89e9-7586d05a9595"
+					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_02x01")
+		(at 53.34 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a0ddfb42-a51e-4784-bd03-415498da201e")
+		(property "Reference" "J4"
+			(at 54.61 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_02x01"
+			(at 54.61 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
+			(at 53.34 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 53.34 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, double row, 02x01, this symbol is compatible with counter-clockwise, top-bottom and odd-even numbering schemes., script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 53.34 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "dbad8dc4-c93a-4294-9031-8192c3317b64")
+		)
+		(pin "1"
+			(uuid "d65b787c-1a77-4b18-a33d-333ee38059ba")
+		)
+		(instances
+			(project "orthgyle"
+				(path "/463a010a-2077-405d-89e9-7586d05a9595"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 242.57 44.45 0)
 		(unit 1)
@@ -9351,6 +9770,278 @@
 			(project "orthgyle"
 				(path "/463a010a-2077-405d-89e9-7586d05a9595"
 					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_02x01")
+		(at 53.34 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e448a4ef-44ea-4d44-9c8b-8bc0f76b9b04")
+		(property "Reference" "J3"
+			(at 54.61 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_02x01"
+			(at 54.61 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
+			(at 53.34 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 53.34 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, double row, 02x01, this symbol is compatible with counter-clockwise, top-bottom and odd-even numbering schemes., script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 53.34 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1e5d6833-a7fe-434b-b551-c30223e93927")
+		)
+		(pin "1"
+			(uuid "2edf57a7-d867-4008-b86a-b396f9aaebc2")
+		)
+		(instances
+			(project ""
+				(path "/463a010a-2077-405d-89e9-7586d05a9595"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_02x01")
+		(at 53.34 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ea703606-a8bb-4427-aad4-4cabf12ea60e")
+		(property "Reference" "J6"
+			(at 54.61 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_02x01"
+			(at 54.61 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
+			(at 53.34 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 53.34 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, double row, 02x01, this symbol is compatible with counter-clockwise, top-bottom and odd-even numbering schemes., script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 53.34 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e488615e-79b4-44d4-a3e1-735d911a726e")
+		)
+		(pin "1"
+			(uuid "8f561d62-69ba-40ad-891f-89249d1a2422")
+		)
+		(instances
+			(project "orthgyle"
+				(path "/463a010a-2077-405d-89e9-7586d05a9595"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_02x01")
+		(at 53.34 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f4b5a18b-6d9f-4537-a317-a4c507dca60b")
+		(property "Reference" "J5"
+			(at 54.61 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_02x01"
+			(at 54.61 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
+			(at 53.34 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 53.34 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, double row, 02x01, this symbol is compatible with counter-clockwise, top-bottom and odd-even numbering schemes., script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 53.34 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4d889f4a-9805-4bc9-8aee-5008af777d9e")
+		)
+		(pin "1"
+			(uuid "8b43f014-96e5-4153-b3a8-d577571fa478")
+		)
+		(instances
+			(project "orthgyle"
+				(path "/463a010a-2077-405d-89e9-7586d05a9595"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_02x01")
+		(at 53.34 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f7af2eb3-55aa-48e8-986f-95808f075058")
+		(property "Reference" "J7"
+			(at 54.61 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_02x01"
+			(at 54.61 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
+			(at 53.34 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 53.34 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, double row, 02x01, this symbol is compatible with counter-clockwise, top-bottom and odd-even numbering schemes., script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 53.34 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "89d2c788-4194-4588-82bc-be8d347a5e38")
+		)
+		(pin "1"
+			(uuid "462517da-93c6-46ab-99a8-130ed668b770")
+		)
+		(instances
+			(project "orthgyle"
+				(path "/463a010a-2077-405d-89e9-7586d05a9595"
+					(reference "J7")
 					(unit 1)
 				)
 			)

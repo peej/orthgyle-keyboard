@@ -393,6 +393,12 @@
 		(uuid "104acb79-86fc-435a-9a96-89314f822ff0")
 	)
 	(junction
+		(at 129.54 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "115f4b29-b140-4d2e-89e4-a855430bc91a")
+	)
+	(junction
 		(at 81.28 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -681,6 +687,12 @@
 		(uuid "6a7de04a-493f-42b7-b89e-be9999dbf1c1")
 	)
 	(junction
+		(at 154.94 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6b40a098-b736-45c8-beef-ce05140dc127")
+	)
+	(junction
 		(at 220.98 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -963,6 +975,12 @@
 		(uuid "bea8f8de-2ffd-46bc-9955-997b1fe81155")
 	)
 	(junction
+		(at 144.78 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c13bf08d-7d66-4927-9c05-47b62fad7cf9")
+	)
+	(junction
 		(at 106.68 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1099,6 +1117,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ec2048a0-a5f6-4b17-981d-6312ae623f3f")
+	)
+	(junction
+		(at 119.38 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ecbbb41f-fc8e-4cb4-9427-498d68355eb7")
 	)
 	(junction
 		(at 43.18 41.91)
@@ -1472,6 +1496,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 130.81) (xy 130.81 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "245a855f-e8cd-495e-98c4-98fb3eb1a7c8")
+	)
+	(wire
+		(pts
 			(xy 66.04 120.65) (xy 78.74 120.65)
 		)
 		(stroke
@@ -1499,6 +1533,16 @@
 			(type default)
 		)
 		(uuid "2711fdec-e445-4ee5-8fa1-5ea93db7cb00")
+	)
+	(wire
+		(pts
+			(xy 156.21 130.81) (xy 156.21 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2893e697-4c0a-4993-96b3-b986994e03a3")
 	)
 	(wire
 		(pts
@@ -1922,6 +1966,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 130.81) (xy 130.81 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "522140fa-faa5-4ba8-a612-a5867891fb6a")
+	)
+	(wire
+		(pts
 			(xy 55.88 77.47) (xy 55.88 59.69)
 		)
 		(stroke
@@ -1942,7 +1996,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 130.81) (xy 119.38 130.81)
+			(xy 116.84 130.81) (xy 118.11 130.81)
 		)
 		(stroke
 			(width 0)
@@ -2072,6 +2126,16 @@
 	)
 	(wire
 		(pts
+			(xy 156.21 115.57) (xy 154.94 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62d5c7bd-6291-4bf9-b5a9-07d35c9745c8")
+	)
+	(wire
+		(pts
 			(xy 119.38 77.47) (xy 119.38 59.69)
 		)
 		(stroke
@@ -2132,7 +2196,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 130.81) (xy 119.38 115.57)
+			(xy 118.11 130.81) (xy 118.11 115.57)
 		)
 		(stroke
 			(width 0)
@@ -2349,6 +2413,16 @@
 			(type default)
 		)
 		(uuid "7ea9fd07-2206-4d99-86c5-2191a0ed9c97")
+	)
+	(wire
+		(pts
+			(xy 144.78 113.03) (xy 144.78 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8034ddf3-a87d-471a-b27f-a4b0f6ed3485")
 	)
 	(wire
 		(pts
@@ -2652,7 +2726,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 115.57) (xy 167.64 115.57)
+			(xy 168.91 115.57) (xy 167.64 115.57)
 		)
 		(stroke
 			(width 0)
@@ -2692,13 +2766,23 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 115.57) (xy 119.38 115.57)
+			(xy 116.84 115.57) (xy 118.11 115.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b3532b94-5e23-4656-90fa-6e1d12e5f08e")
+	)
+	(wire
+		(pts
+			(xy 130.81 115.57) (xy 129.54 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b40b5e67-3cbd-482a-b239-3cb0ffd51919")
 	)
 	(wire
 		(pts
@@ -2982,6 +3066,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 130.81) (xy 156.21 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf4824d0-5833-45ef-aa62-9209e92bd009")
+	)
+	(wire
+		(pts
 			(xy 167.64 95.25) (xy 167.64 97.79)
 		)
 		(stroke
@@ -3042,7 +3136,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 130.81) (xy 170.18 115.57)
+			(xy 168.91 130.81) (xy 168.91 115.57)
 		)
 		(stroke
 			(width 0)
@@ -3122,7 +3216,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 130.81) (xy 170.18 130.81)
+			(xy 167.64 130.81) (xy 168.91 130.81)
 		)
 		(stroke
 			(width 0)
@@ -3249,6 +3343,16 @@
 			(type default)
 		)
 		(uuid "e5893280-a13e-4154-9768-96bbe3c860a7")
+	)
+	(wire
+		(pts
+			(xy 119.38 113.03) (xy 119.38 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e58f9682-140f-45bd-b10b-309679ae5ddc")
 	)
 	(wire
 		(pts
@@ -4245,7 +4349,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0e4396de-cf13-4385-82a1-17f1d953f384")
-		(property "Reference" "MX50_2u1"
+		(property "Reference" "MX50_2"
 			(at 162.56 123.571 0)
 			(effects
 				(font
@@ -4297,7 +4401,7 @@
 		(instances
 			(project "orthgyle"
 				(path "/463a010a-2077-405d-89e9-7586d05a9595/2a62891d-916e-4fac-8dad-75eda87335ef"
-					(reference "MX50_2u1")
+					(reference "MX50_2")
 					(unit 1)
 				)
 			)
@@ -4749,7 +4853,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "17205177-3c07-482d-8de1-3343ce635204")
-		(property "Reference" "MX30_2u1"
+		(property "Reference" "MX30_2"
 			(at 111.76 123.571 0)
 			(effects
 				(font
@@ -4801,7 +4905,7 @@
 		(instances
 			(project "orthgyle"
 				(path "/463a010a-2077-405d-89e9-7586d05a9595/2a62891d-916e-4fac-8dad-75eda87335ef"
-					(reference "MX30_2u1")
+					(reference "MX30_2")
 					(unit 1)
 				)
 			)
@@ -12130,6 +12234,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 124.46 130.81 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bce54008-4512-4334-a0a0-0ffa20f69038")
+		(property "Reference" "MX35_2"
+			(at 124.46 123.571 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 124.46 125.8824 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Orthgyle:MX_PCB_200H"
+			(at 124.46 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 124.46 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3e1bb418-caa4-44cd-b0fb-5d5b165898d7")
+		)
+		(pin "2"
+			(uuid "6137bcf0-d99f-4fc3-9036-bbb00b281541")
+		)
+		(instances
+			(project "orthgyle"
+				(path "/463a010a-2077-405d-89e9-7586d05a9595/2a62891d-916e-4fac-8dad-75eda87335ef"
+					(reference "MX35_2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D_Small_Filled")
 		(at 66.04 118.11 270)
 		(mirror x)
@@ -14317,6 +14489,74 @@
 			(project "orthgyle"
 				(path "/463a010a-2077-405d-89e9-7586d05a9595/2a62891d-916e-4fac-8dad-75eda87335ef"
 					(reference "MX68")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 149.86 130.81 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f3348354-2b6a-44c8-a5a9-eb9533d846f7")
+		(property "Reference" "MX45_2"
+			(at 149.86 123.571 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 149.86 125.8824 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Orthgyle:MX_PCB_200H"
+			(at 149.86 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 149.86 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b36013ac-407e-4ce8-b58f-06804b4a0f90")
+		)
+		(pin "2"
+			(uuid "30fa736f-c7b6-494a-a372-1575105e98af")
+		)
+		(instances
+			(project "orthgyle"
+				(path "/463a010a-2077-405d-89e9-7586d05a9595/2a62891d-916e-4fac-8dad-75eda87335ef"
+					(reference "MX45_2")
 					(unit 1)
 				)
 			)
